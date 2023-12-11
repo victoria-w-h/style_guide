@@ -14,20 +14,40 @@
 
 .default {
 	background-color: $color-accent;
+	&:hover {
+		background-color: lighten($color-accent, 15%);
+		transition: background-color 0.3s ease-in;
+	}
 }
 
 .error {
 	background-color: $color-error;
+	&:hover {
+		background-color: lighten($color-error, 15%);
+		transition: background-color 0.3s ease-in;
+	}
 }
 
 .info {
 	background-color: $color-info;
+	&:hover {
+		background-color: lighten($color-info, 15%);
+		transition: background-color 0.3s ease-in;
+	}
 }
 
 .success {
 	background-color: $color-success;
+	&:hover {
+		background-color: lighten($color-success, 15%);
+		transition: background-color 0.3s ease-in;
+	}
 }
 
 .warning {
 	background-color: $color-warning;
+	&:hover {
+		background-color: lighten($color-warning, 15%);
+		transition: background-color 0.3s ease-in;
+	}
 }
